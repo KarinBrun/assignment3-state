@@ -1,0 +1,30 @@
+.app-header {
+  background: slategray;
+  color: white;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0 20px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  color: lightskyblue;
+}

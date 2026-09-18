@@ -1,0 +1,33 @@
+.footer {
+    background: slategray;
+    color: white;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 20px;
+}
+
+.text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+
+.nav-menu {
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  color: lightskyblue;
+}
